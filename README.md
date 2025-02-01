@@ -13,3 +13,4 @@ I will upload the projects as I go and you'll have all the time to practice and 
 These projects are perfect for anyone looking to solidify their understanding of Python basics and build a portfolio of work.
 
 1) Basic Calculator
+2) Number Guessing game
