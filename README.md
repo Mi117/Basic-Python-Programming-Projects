@@ -11,3 +11,5 @@ Repository Overview
 In this repository, you will find a variety of simple yet engaging Python projects that cover essential programming topics. 
 I will upload the projects as I go and you'll have all the time to practice and review the fundamental concepts behind this versatile and powerful programming language! 
 These projects are perfect for anyone looking to solidify their understanding of Python basics and build a portfolio of work.
+
+1) Basic Calculator
