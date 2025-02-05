@@ -15,3 +15,4 @@ These projects are perfect for anyone looking to solidify their understanding of
 1) Basic Calculator
 2) Random number guessing
 3) Random Password generator
+4) Bulk file renamer program
