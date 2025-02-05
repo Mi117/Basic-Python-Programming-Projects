@@ -1,0 +1,39 @@
+"""
+How to use this program:
+
+1. Create a folder/directory where you want to rename files
+    Example: Create 'images_to_rename' on your desktop
+
+2. Copy all the files you want to rename into that folder
+    
+3. Edit the 'path' variable in the code to point to your folder:
+    path = "C:\\Users\\YourUsername\\Desktop\\images_to_rename\\"
+    
+4. Run the program
+    - All files will be renamed to img0.jpg, img1.jpg, img2.jpg, etc.
+    
+Note: Make sure you have proper permissions and backup your files before running.
+Example path for different OS:
+Windows: "C:\\Users\\name\\Desktop\\folder\\"
+Mac/Linux: "/home/username/Desktop/folder/
+
+"""
+
+import os
+
+def main():
+    i = 0
+    path = "C:\\Users\\YourUsername\\Desktop\\images_to_rename\\" # Edit this path
+    for filename in os.listdir(path):
+        my_dest = "img" + str(i) + ".jpg"
+        my_source = os.path.join(path, filename)
+        my_dest = os.path.join(path, my_dest)
+        os.rename(my_source, my_dest)
+        i += 1
+        
+if __name__ == '__main__':
+    main()
+
+# This program renames all the files in the specified directory to img0.jpg, img1.jpg, img2.jpg, etc.
+# Change the file extension/format based upon your necessities
+# Enjoy ;)
