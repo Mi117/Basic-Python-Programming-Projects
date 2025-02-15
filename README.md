@@ -17,3 +17,4 @@ These projects are perfect for anyone looking to solidify their understanding of
 3) Random Password generator
 4) Bulk file renamer program
 5) Password Generator program
+6) Free Shipping Calculation tool
